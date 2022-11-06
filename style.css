@@ -32,6 +32,11 @@ body {
   display:flex;
   align-items: center;
   flex-direction: column;
+
+  background-image: url('./assets/bg.svg');
+  background-repeat: no-repeat;
+  background-position-x: -50rem;
+  background-position-y: -75rem;
 }
 
 .header img, .spinner{
@@ -167,6 +172,7 @@ footer {
   color: var(--color-footer);
 }
 
+
 @media (min-width: 700px) {
 
   body{
@@ -207,4 +213,13 @@ footer {
   ul li{
     padding-top: 0.6rem;
   }
+
+  body {
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: -35rem;
+  }
+
 }
